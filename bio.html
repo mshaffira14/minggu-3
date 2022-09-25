@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Biodata</title>
+</head>
+<body>
+    <h1 align=center>BIODATA DIRI</h1>
+    <table border="1" cellspacing="0" cellpadding="5" align="center" width="800">
+        <tr align=center bgcolor="#0090f">
+           <td width="200">Foto</td>
+           <td width="400">Data Diri</td>
+           <td width="200">Keterangan</td>
+        </tr>
+        <tr>
+           <td rowspan="9"><img src="fira.jpg" width="200"></td>"
+           <td>Nama</td>
+           <td>Maulatus Shaffira F</td>
+        </tr>
+        <tr>
+           <td>NIM</td>
+           <td>A11.2022.14720</td>
+        </tr>
+        <tr>
+           <td>Dosen Wali</td>
+           <td>Wise Herowati</td>
+        </tr>
+        <tr>
+           <td>Status</td>
+           <td>Aktif</td>
+        </tr>
+        <tr>
+           <td>Alamat Semarang</td>
+           <td>Jl. Arjuna No. 40</td>
+        </tr>
+        <tr>
+           <td>Alamat Asal</td>
+           <td>Pemalang</td>
+        </tr>
+        <tr>
+           <td>Email</td>
+           <td>111202214720@mhs.dinus.ac.id</td>
+        </tr>
+        <tr>
+           <td>No. HP</td>
+           <td>085878878105</td>
+        </tr>
+        <tr>
+           <td>Agama</td>
+           <td>Islam</td>
+        </tr>
+        <tr>
+           <td colspan="3"><img src="WhatsApp Image 2022-09-14 at 16.06.10.jpeg" width="800"></td>"
+        </table>
+<html>
+    <head>
+        <title>Multimedia - HTML 5</title>
+    </head>
+    <body>
+        <p>
+            <button onclick="durationVid()" type="button">Duration</button>
+            <button onclick="playVid()" type="button">Play Video</button>
+            <button onclick="pauseVid()" type="button">Pause Video</button>
+            <button onclick="enableCon()" type="button">Enable Controls</button>
+            <button onclick="disableCon()" type="button">Disable Controls</button>
+        </p>
+        <video id="myVideo" width="800">
+            <source src="fira.mp4" type="video/mp4">
+        </video>
+     </body>
+     <script>
+     var vid = document.getElementById("myVideo");
+     function durationVid() {
+         alert(vid.duration);
+     }
+     function playVid() {
+         vid.play();
+     }
+     function pauseVid() {
+         vid.pause();
+     }
+     function enableCon() {
+         vid.controls = true;
+         vid.load();
+     }
+     function disableCon() {
+         vid.controls =false;
+         vid.load();
+     }
+     </script>
+</html>
+</body>
+</html>
+
